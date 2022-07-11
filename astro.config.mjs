@@ -5,6 +5,7 @@ import tailwind from "@astrojs/tailwind";
 export default defineConfig({
   integrations: [tailwind()],
   site: "https://abdoarafh.github.io/",
+  base: "/",
   vite: {
     ssr: {
       external: ["svgo"],
