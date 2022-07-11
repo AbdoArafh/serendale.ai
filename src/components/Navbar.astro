@@ -3,10 +3,10 @@
 ---
 
 <nav class="max-w-[1370px] mx-auto p-8 flex justify-between">
-    <div class="logo text-xl font-medium">
-        Serendale
-    </div>
-    <ul class="flex gap-12" class="links">
+    <a class="logo text-xl font-medium" href="/">
+        <img src="/assets/serendale.png" alt="Serendale">
+    </a>
+    <ul class="hidden gap-12 lg:flex" class="links">
         <li><a href="#">Smart Contracts</a></li>
         <li><a href="#">Services</a></li>
         <li><a href="#">Solutions</a></li>
@@ -28,3 +28,9 @@
             </a></li>
     </ul>
 </nav>
+
+<style>
+    li a:hover {
+        filter: brightness(0.8);
+    }
+</style>

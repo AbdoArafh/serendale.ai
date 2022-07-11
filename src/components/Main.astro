@@ -1,26 +1,22 @@
----
-    import bg from "../../public/assets/bg.svg";
----
-
 <main class="mt-32 text-center">
-    <h1 class="text-[80px] font-[500] leading-tight">
+    <h1 class="text-[40px] lg:text-[80px] font-[500] leading-tight">
         <span class="text-gradient-primary">A Fast Blockchain.</span>
         <br>
         Scalable AI.
     </h1>
     <p class="mt-10">
         Our technology performing fast blockchain (120K TPS) and it has guaranteed
-        <br>
+        <br class="hidden lg:block">
         AI-based data security.
         Proof of Stake, its consensus algorithm enables
-        <br>
+        <br class="hidden lg:block">
         unlimited speeds.
     </p>
     <div class="cta flex justify-center gap-4 mt-8">
         <a class="btn border-[#5C24FF]" href="#">Get started</a>
         <a class="btn border-white" href="#">Ecosystems</a>
     </div>
-    <img class="block fixed inset-0 rotate-[15deg]" src={bg} alt="...">
+    <img class="block fixed bottom-0 right-0 left-0 -z-10 lg:opacity-50" src="/assets/bg.svg" alt="...">
 </main>
 
 <style>
